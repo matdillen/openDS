@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "ac": "http://rs.tdwg.org/ac/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "exif": "http://ns.adobe.com/exif/1.0/",
+    "ods": "http://opends.dissco.eu"
+  },
+  "@id": "20.5000.1025/madeupnsiid7ce30ba7",
+  "@type": "http://purl.org/dc/dcmitype/StillImage",
+  "ods:typeName": "ODStypeBIO-1902-ac",
+  "dcterms:title": "Herbarium specimen image of Priva armata S.Watson, part of the collection of Meise Botanic Garden",
+  "dcterms:identifier": "http://oxalis.br.fgov.be/images/BR0/000/005/505/173/BR0000005505173.jpg",
+  "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
+  "dcterms:creator": "Meise Botanic Garden",
+  "dcterms:created": "2010",
+  "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+  "dcterms:rightsHolder": "Meise Botanic Garden",
+  "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+  "ac:hasServiceAccessPoint": [
+    {
+        "ac:accessURI": "http://iiif-image.oxalis.br.fgov.be/BR0/000/005/505/173/BR0000005505173.jpg/full/full/0/default.jpg",
+        "dcterms:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
+        "ac:variantLiteral": "Best Quality",
+        "exif:PixelYDimension": 9298,
+        "exif:PixelXDimension": 6252
+    },
+    {
+        "ac:accessURI": "http://oxalis.br.fgov.be/images/BR0/000/005/505/173/BR0000005505173.jpg",
+        "dcterms:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
+        "ac:variantLiteral": "Best Quality",
+        "exif:PixelYDimension": 9298,
+        "exif:PixelXDimension": 6252
+    },
+    {
+        "ac:accessURI": "http://iiif-image.oxalis.br.fgov.be/BR0/000/005/505/173/BR0000005505173.jpg/full/349,499/0/default.jpg",
+        "dcterms:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v001",
+        "ac:variantLiteral": "Thumbnail",
+        "exif:PixelYDimension": 499,
+        "exif:PixelXDimension": 349
+    },
+    {
+        "ac:accessURI": "https://zenodo.org/record/1480814/files/BR0000005505173_all.png",
+        "dcterms:format": "image/png",
+        "ac:variantDescription": "Segmentation Mask: Each ROI has a different color, background is black.",
+        "exif:PixelYDimension": 9298,
+        "exif:PixelXDimension": 6252
+    }
+  ],
+  "ac:hasROI": [
+    {
+      "@id": "https://zenodo.org/record/1480814/files/BR0000005505173_all.png#243,242,3",
+      "dwc:identifiedBy": "Phillippe Hendricx",
+      "dcterms:description": "color chart",
+      "ac:xFrac": 0.114,
+      "ac:yFrac": 0.525,
+      "ac:widthFrac": 0.314,
+      "ac:heightFrac": 0.143
+    },
+    {
+      "@id": "https://zenodo.org/record/1480814/files/BR0000005505173_all.png#255,255,255",
+      "dwc:identifiedBy": "Phillippe Hendricx",
+      "dcterms:description": "barcode label",
+      "ac:xFrac": 0.367,
+      "ac:yFrac": 0.935,
+      "ac:widthFrac": 0.274,
+      "ac:heightFrac": 0.064
+    }
+  ]
+}
